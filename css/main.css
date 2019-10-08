@@ -2,8 +2,14 @@
     margin: 0;
     padding: 0;
 }
-main {
+body {
+    font-size: 20px;
+}
+main, footer {
     width: 50%;
     margin: 1em auto;
-
+}
+p {
+    text-indent: 1em;
+    line-height: 2;
 }
