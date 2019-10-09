@@ -39,6 +39,9 @@ ul {
     height:200px;
     float:right;
 }
+#buy-computer {
+    float:right;
+}
 a {
     color: blue;
 }
