@@ -4,22 +4,85 @@
 }
 body {
     font-size: 20px;
-    background-image: url(background.jpg);
-    background-color:#cccccccc
+   background-image:url(../images/Backdrop1.jpg);
+   background-repeat: no-repeat;
+   
 }
-main, footer {
+main {
     width: 50%;
     margin: 1em auto;
+    padding: 1em;
+    border: solid black;
+    background-color: yellow;
+    color:blue;
+    
+}
+header {
+    background-color: purple;
+    color:yellow;
+}
+nav {
+    background-color: yellow;
+}
+footer {
+    color:yellow;
 }
 ul {
     margin-left: 2em;
 }
-p {
+ p {
     text-indent: 1em;
     line-height: 2;
 }
-#sell-computer, #computer-services {
-    width: 500px;
-    height:250px;
-    float: right;
+#computer-services , #sell-computer {
+    width: 400px;
+    height:200px;
+    float:right;
+}
+a {
+    color: blue;
+}
+.nav-link {
+    color:blue;
+}
+.nav-link:hover , .nav-link:focus {
+    color: yellow;
+    background-color: purple;
+}
+label {
+    font-weight:bold;
+}
+input {
+    width:10em;
+    margin-left:1em;
+    margin-bottom:0.5em
+}
+input:focus {
+    border:2px solid blue;
+}
+#submit, #clear {
+    width:5em;
+}
+#Comment {
+    height:5em;
+    width:15em;
+    margin-left:1em;
+    margin-bottom:0.5em;
+}
+table {
+    border:1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    border:1px solid black;
+    padding: .2em .7em;
+    text-align: right;
+}
+th {
+    background-color: blue;
+    color: yellow;
+}
+td {
+    background-color: white;
+    color:black;
 }
